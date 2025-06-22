@@ -87,7 +87,8 @@ Visit `http://localhost:8501` in your browser.
 
 ```
 flood-analysis-dashboard/
-├── app.py                  # Main Streamlit application
+├── app.py                  # Streamlit application with RF
+├── flood_prediction_app.py # Main Streamlit application with LSTM             
 ├── requirements.txt        # Python dependencies
 ├── Datasets/              # Sample data folder
 ├── LSTM model file/       # Pre-trained models
