@@ -41,7 +41,7 @@ Your CSV file needs these columns:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/flood-analysis-dashboard.git
+git clone https://github.com/syedbaseeratshah/flood-analysis-dashboard.git
 cd flood-analysis-dashboard
 ```
 
