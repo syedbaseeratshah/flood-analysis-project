@@ -1,106 +1,34 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# Virtual Environment
+# Virtual environment
 venv/
 env/
-ENV/
 .venv/
-.env
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb  # Comment this out if you want to include notebooks
+# Jupyter
+.ipynb_checkpoints/
 
-# Large Data Files
-Datasets/
+# Raw hydro-meteorological data — kept local only, not pushed to GitHub.
+data/
 *.csv
 *.xlsx
 *.xls
-*.json
 *.parquet
 
-# Model Files (large)
-LSTM\ model\ file/
-*.h5
-*.pkl
-*.joblib
-*.model
-*.bin
-
-# Generated Visualizations
-Visualizations/
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.html
-*.svg
-
-# API Keys and Secrets
+# Secrets
 .env
 .streamlit/secrets.toml
-config.ini
-secrets.json
-*.key
 
-# OS generated files
+# OS / IDE
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # Logs
 *.log
-logs/
-
-# Temporary files
-*.tmp
-*.temp
-temp/
-
-# Documentation builds
-docs/_build/
-
-# PyTorch
-*.pth
-
-# TensorFlow
-*.ckpt*
-*.meta
-*.index
-
-# Large files (>100MB)
-*.zip
-*.tar.gz
-*.tar
-*.rar
